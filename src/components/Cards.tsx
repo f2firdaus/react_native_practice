@@ -10,6 +10,7 @@ const Cards = () => {
         style={{
           borderRadius: 200/2,
           width: 200,
+          marginTop:15,
           height: 200,
           alignItems: "center",
           padding: 12,
@@ -17,7 +18,7 @@ const Cards = () => {
         }}
       />
       <Text>I am Firdaus Naseem</Text>
-      <Button title="Press Me" onPress={() => console.warn("CLicked")}></Button>
+      <Button title="Press Me" onPress={() => alert("CLicked")}></Button>
     </View>
   );
 };
