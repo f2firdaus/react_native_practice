@@ -9,6 +9,8 @@ import Products from "../components/Products";
 import ProductsA from "../components/Props/ProductsA";
 import ToggleButton from "../components/ToggleButton";
 import GetWeather from "../components/GetWeather";
+import BackgroundUpdate from "../components/BackgroundUpdate";
+import Todos from "../components/Todos";
 
 const Index = () => {
   const products = [
@@ -69,7 +71,9 @@ const Index = () => {
       /> */}
 
       {/* <ToggleButton/> */}
-      <GetWeather/>
+      {/* <GetWeather/> */}
+      <Todos/>
+      {/* <BackgroundUpdate/> */}
     </View>
   );
 };
