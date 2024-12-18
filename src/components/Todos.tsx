@@ -23,7 +23,8 @@ const Todos = () => {
   return (
     <View>
       <Text style={{fontSize:50}}>Todos</Text>
-      <TextInput value={input} style={{borderColor:'red', borderWidth:2 ,height:40}} onChangeText={(e)=>setInput(e)}/>
+      <TextInput value={input} style={{borderColor:'red', borderWidth:2 ,height:40}} onChangeText={setInput}/>
+      
       <Button title='Add Todo' onPress={handleTodo} />
       <View>
         <FlatList data={todos} keyExtractor={(item,index)=>index.toString()} renderItem={({item})=>

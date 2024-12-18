@@ -11,6 +11,11 @@ import ToggleButton from "../components/ToggleButton";
 import GetWeather from "../components/GetWeather";
 import BackgroundUpdate from "../components/BackgroundUpdate";
 import Todos from "../components/Todos";
+import FetchAPi from "../components/FetchAPi";
+import RandomDataApi from "../components/RandomDataApi";
+import Counter from "../components/Counter";
+import Todoss from "../components/Todoss";
+import Todox from "../components/Todox";
 
 const Index = () => {
   const products = [
@@ -72,7 +77,13 @@ const Index = () => {
 
       {/* <ToggleButton/> */}
       {/* <GetWeather/> */}
-      <Todos/>
+      {/* <Todos/> */}
+      {/* <FetchAPi/> */}
+      {/* <RandomDataApi/> */}
+      {/* <Counter/>
+       */}
+       {/* <Todoss/> */}
+       {/* <Todox/> */}
       {/* <BackgroundUpdate/> */}
     </View>
   );
